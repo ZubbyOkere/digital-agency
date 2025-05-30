@@ -29,7 +29,9 @@ export default function ContactForm() {
       setStatus("Thank you! We’ll get back to you soon.");
       setFormData({ name: "", email: "", phone: "", message: "" });
     } catch (error) {
-      setStatus("Error submitting form. Please try again.");
+      setStatus(
+        "Error submitting form. Please try again or click on WhatsApp icon to reach out."
+      );
       console.log(error);
     }
   };

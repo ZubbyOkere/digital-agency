@@ -12,7 +12,7 @@ export default function Hero() {
       }}
     >
       {/* Overlay with Blur Effect */}
-      <div className="absolute inset-0 bg-[#1E3A8A]/50 backdrop-blur-sm"></div>
+      <div className="absolute inset-0 bg-[#1E3A8A]/50 backdrop-blur-xs"></div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col md:flex-row items-center justify-between gap-8 py-12 sm:py-16">
@@ -30,12 +30,12 @@ export default function Hero() {
                   .typeString(
                     "Captivating websites to drive your brand growth!"
                   )
-                  .pauseFor(2000)
+                  .pauseFor(1000)
                   .deleteAll()
                   .typeString(
                     "Cutting-edge Mobile Apps that bring your vision to life and streamline operations"
                   )
-                  .pauseFor(2000)
+                  .pauseFor(1000)
                   .deleteAll()
                   .typeString(
                     "Strategic Digital Marketing campaigns targeted to spark engagement and skyrocket conversions."
@@ -64,7 +64,7 @@ export default function Hero() {
               WhatsApp
             </Link>
             <Link
-              href="tel+2349076122882"
+              href="tel:+2349076122882"
               className="flex items-center bg-[#1E3A8A] text-white px-4 py-2 rounded-md text-base font-medium hover:bg-[#60A5FA] transition-colors duration-200"
               aria-label="Call us"
             >
