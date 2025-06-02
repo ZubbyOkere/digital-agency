@@ -1,2 +1,15 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+
+.bg-royal-blue {
+  background-color: #1e3a8a;
+}
+.bg-light-blue {
+  background-color: #60a5fa;
+}
+.hover\:bg-light-blue:hover {
+  background-color: #60a5fa;
+}
+.hover\:bg-royal-blue:hover {
+  background-color: #1e3a8a;
+}

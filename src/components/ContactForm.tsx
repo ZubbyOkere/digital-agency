@@ -22,9 +22,7 @@ export default function ContactForm() {
     e.preventDefault();
     setStatus("Submitting...");
 
-    // Placeholder for form submission (e.g., API call)
     try {
-      // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 1000));
       setStatus("Thank you! We’ll get back to you soon.");
       setFormData({ name: "", email: "", phone: "", message: "" });

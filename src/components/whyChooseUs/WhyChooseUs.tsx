@@ -1,6 +1,6 @@
 // components/WhyChooseUs.jsx
 import { whyChooseUs } from "@/utils/WhyChooseUs";
-import WhyChooseUsCard from "../WhyChooseUsCard";
+import WhyChooseUsCard from "./WhyChooseUsCard";
 
 export default function WhyChooseUs() {
   return (

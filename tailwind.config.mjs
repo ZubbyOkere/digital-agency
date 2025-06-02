@@ -1,7 +1,6 @@
 // tailwind.config.js
 /** @type {import('tailwindcss').Config} */
-
-export default Tailwind = {
+const config = {
   content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   safelist: ["hover:bg-[#60A5FA]", "hover:bg-[#1E3A8A]"],
   theme: {
@@ -16,3 +15,5 @@ export default Tailwind = {
   },
   plugins: [],
 };
+
+export default config;
