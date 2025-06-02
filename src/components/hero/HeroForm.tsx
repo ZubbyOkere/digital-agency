@@ -47,6 +47,7 @@ export default function HeroForm({
       onSubmit(data);
       return;
     }
+    // service_3wi3i3f
 
     try {
       const timestamp = new Date().toLocaleString("en-US", {
@@ -54,7 +55,7 @@ export default function HeroForm({
       });
       const formData = { ...data, time: timestamp };
       const result = await emailjs.send(
-        "service_3wi3i3f",
+        "service_li3eomc",
         "template_59xsxtb",
         formData,
         "YRh_kMbQiJGu09L95"
@@ -88,7 +89,7 @@ export default function HeroForm({
       {/* Popup */}
       {showPopup && (
         <div
-          className={`fixed top-4 right-0 z-50 p-4 rounded-l-md shadow-lg transition-transform duration-500 ease-in-out ${
+          className={`fixed top-12 right-6 z-50 p-4 rounded-l-md shadow-lg transition-transform duration-500 ease-in-out ${
             showPopup.isError
               ? "bg-red-100 text-red-700"
               : "bg-green-100 text-green-700"
