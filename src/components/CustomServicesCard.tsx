@@ -16,7 +16,7 @@ export default function CustomServicesCard({
   whatsappLink,
 }: CustomServicesCardProps) {
   return (
-    <div className="bg-white mt-8 rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-2xl">
+    <div className="bg-white rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-2xl">
       <h3 className="text-2xl font-semibold text-[#1E3A8A] mb-4">
         Custom Digital Solutions
       </h3>

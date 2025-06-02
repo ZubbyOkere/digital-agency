@@ -37,7 +37,7 @@ export default async function Pricing() {
               />
             ))}
           </div>
-          <h5 className="text-lg font-medium text-[#1F2937] text-center underline mb-4">
+          <h5 className="text-lg font-medium text-[#1F2937] text-center underline mb-4 mt-12 md:mt-18">
             Custom Digital Services
           </h5>
           <div className="grid grid-cols-1">
