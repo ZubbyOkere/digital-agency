@@ -14,7 +14,7 @@ export default function WhyChooseUsCard({
 }: WhyChooseUsCardProps) {
   return (
     <div
-      className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:bg-royal-blue group"
+      className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:bg-royal-blue hover:text-white group"
       role="article"
       aria-labelledby={`why-choose-${title.toLowerCase().replace(/\s/g, "-")}`}
     >
