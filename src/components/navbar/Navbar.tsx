@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { navLinks } from "@/utils/Navlink";
+import Image from "next/image";
 // import { navLinks } from '../utils/navLinks'; // Import the links
 
 export default function Navbar() {
@@ -16,8 +17,14 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16 overflow-x-hidden">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-xl sm:text-2xl font-bold truncate">
-              ZubbyTech
+            <Link href="/" className=" truncate ">
+              <Image
+                src={"/assets/images/IMG_5995[1].PNG"}
+                width={100}
+                height={100}
+                alt="ZubbyTech"
+                className="object-contain "
+              />
             </Link>
           </div>
 
