@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "ZubbyTech Digital Solutions",
   description: "Tech/Digital Solutions that power up businesses",
   icons: {
-    icon: "/assets/images/favico.ico",
+    icon: "/assets/images/IMG_5987[1].PNG",
   },
 };
 
