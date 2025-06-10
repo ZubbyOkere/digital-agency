@@ -19,7 +19,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ZubbyTech Digital Solutions",
-  description: "Tech/Digital Solutions that power up businesses",
+  description:
+    "ZubbyTech offers websites design and building/development, mobile apps, e-commerce website solutions, digital marketing, and social media management to empower businesses. Boost visibility and grow with expert services. Contact us!",
+  keywords:
+    "ZubbyTech, Digital Solutions, Web Development, Mobile App Development, E-commerce, Digital Marketing, Social Media Management, Website Design, SEO, SEM, PPC, Content Marketing, Email Marketing, Web Design, Web Development, Web Designing, Web Development, Web Designing, Web Development, Web Designing, Web Development, Web Designing, Web Development, Web Designing, Web Development, Web Designing, Web Development, Web Designing, Web",
   icons: {
     icon: "/assets/images/IMG_5987[1].PNG",
   },
