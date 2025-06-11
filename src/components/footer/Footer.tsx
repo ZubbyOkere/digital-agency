@@ -19,7 +19,7 @@ export default function Footer() {
             </p>
             <div className="flex justify-center md:justify-start space-x-4 mt-4">
               <Link
-                href="https://x.com/stackupacademy?s=21?text=Hello%MeetUs,%20I%27d%20like%20to%20discuss%20a%20project!"
+                href="https://x.com/zubbytech_?s=21?text=Hello%MeetUs,%20I%27d%20like%20to%20discuss%20a%20project!"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#E5E7EB] hover:text-[#60A5FA] transition-colors duration-200"
@@ -49,7 +49,7 @@ export default function Footer() {
                 </svg>
               </Link>
               <Link
-                href="https://shorturl.at/kl928?text=Hello%MeetUs,%20I%27d%20like%20to%20discuss%20a%20project!"
+                href="https://www.instagram.com/zubbytechsolutions?igsh=MTFmdWtjYmo4M3Bzbg%3D%3D&utm_source=qr?text=Hello%MeetUs,%20I%27d%20like%20to%20discuss%20a%20project!"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#E5E7EB] hover:text-[#60A5FA] transition-colors duration-200"
